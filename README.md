@@ -84,4 +84,15 @@ During this project we used AI tools for:
 - Writing assistance for the report and this README
 - Brainstorming and Vibe coding
 
-    **All core model design, data collection, feature engineering, result interpretation, and final technical decisions were made by the authors, and all outputs have been manually verified.**
+    **All core model design, data collection, feature engineering, result interpretation, and final technical decisions were made by the authors, and all outputs have been manually verified
+
+---
+
+### 📄 Citation
+@misc{datephanyawat_khanongsuwan_swe_2025_rmpo,
+  title={RMPO Data Modeling: Relational, Document, and Graph Implementations for Research Project Management},
+  author={Datephanyawat, Jirapat and Khanongsuwan, Paradorn and Swe, Thet Htun},
+  year={2025},
+  howpublished={\url{https://github.com/iHazelly/RMPO-Data-Modeling-Trifecta-Relational-Document-Graph}}
+}
+---
