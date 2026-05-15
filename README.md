@@ -1,27 +1,42 @@
-# RMPO-Data-Modeling-Trifecta-Relational-Document-Graph
+# 🗄️ RMPO Data Modeling Trifecta
 
-**RMPO Data Modeling Project: Three Perspectives on Research Project Management**
-**Relational · Document · Graph**
+![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
+![MongoDB](https://img.shields.io/badge/MongoDB-7.0-green)
+![Neo4j](https://img.shields.io/badge/Neo4j-5.0-red)
+![License](https://img.shields.io/badge/License-Academic%20Use-brightgreen)
 
-This repository contains the complete data modeling work for the Research Project Management Office (RMPO) case study at Kookle University. The same business requirements are implemented in three different database paradigms: relational (MySQL), document (MongoDB), and graph (Neo4j).
+**Relational · Document · Graph** — One case study, three database paradigms. Complete data modeling for Research Project Management Office (RMPO) at Kookle University.
 
 ---
 
-**📌 Table of Contents**
-Project Overview
+## 📌 Overview
 
-**1.Team**
+- **Problem**: RMPO needs to track research projects, donors, staff, student assistants, installments, and domains — but different queries favor different data models.  
+- **Solution**: We implemented the **same business requirements** in three database systems: MySQL (relational), MongoDB (document), Neo4j (graph).  
+- **Outcome**: A side‑by‑side comparison of modeling choices, query performance, and best‑use scenarios for each paradigm.
 
-**2. Business Context**
+---
 
-**3. Model 1:** Relational Database (MySQL)
+## 🚀 What's Inside
 
-**4. Model 2:** Document Database (MongoDB)
+| Model | Technology | Key Feature |
+|-------|------------|--------------|
+| **Relational** | MySQL 8.0 | 3NF normalization, 8 core tables + junction tables, 22 SQL queries |
+| **Document** | MongoDB 7.0 | Two collections (projects embedded, users referenced), aggregation pipeline |
+| **Graph** | Neo4j 5.0 | 10 node labels, 11 relationship types, Cypher queries for network insights |
 
-**5. Model 3:** Graph Database (Neo4j)
+---
 
-**6. Comparison & Recommendation**
+## 📊 Sample Query Performance (Mental Model)
 
-**7. AI Use Declaration**
+| Query Type | MySQL | MongoDB | Neo4j |
+|------------|-------|---------|-------|
+| Project details + donor + installments | 3-4 JOINs | 1 document read | traverse 2-3 hops |
+| Staff expertise in active projects | complex JOIN + GROUP BY | `$unwind` + `$group` | simple path match |
+| Funding received by donor type | GROUP BY with subquery | `$group` + `$project` | relationship aggregation |
 
-**8. Citation**
+> Actual execution times depend on data volume and indexes; this table highlights the **conceptual** complexity of each paradigm.
+
+---
+
+## 🗂️ Repository Structure
