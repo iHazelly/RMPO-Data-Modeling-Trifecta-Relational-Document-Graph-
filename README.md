@@ -1,4 +1,4 @@
-# 🗄️ RMPO Data Modeling Trifecta
+# RMPO Data Modeling Trifecta
 
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
 ![MongoDB](https://img.shields.io/badge/MongoDB-7.0-green)
