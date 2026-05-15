@@ -39,6 +39,16 @@
 
 ---
 
+## 🐳 How to Run Each Model
+
+### 1️⃣ Relational (MySQL)
+
+```bash
+cd relational
+mysql -u root -p < create_database.sql
+mysql -u root -p mydb < mockup_data.sql
+mysql -u root -p mydb < Final_Implementation.sql
+
 
 ---
 
