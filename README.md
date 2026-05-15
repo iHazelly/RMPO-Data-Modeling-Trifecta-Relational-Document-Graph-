@@ -64,9 +64,23 @@ db.projects.insertMany([...])   # load Projects.json etc.
 ```
 
 ---
-### 3 Document (MongoDB Atlas)
+### Graph (Neo4j)
 - Open Neo4j Browser (local or Aura)
 - Copy the content of **graph/Neo4j_MockUpData.csv** (the query column) and run it to create nodes & relationships.
 - Execute any query from **graph/Cypher_Query.pdf.**
+---
 
-```
+### Conclusion
+- Use **MongoDB** when your primary need is to view/manage projects as whole units (project form → one document).
+- Use **Neo4j** when you need to explore relationships: “find staff with certain expertise not assigned to active projects”, “funding network analysis”.
+- Use **MySQL** when financial integrity, complex cross‑entity reporting, and ACID transactions are mandatory.
+For the RMPO use case, **MongoDB** offers the most natural fit.
+---
+
+### AI Use Declaration
+During this project we used AI tools for: 
+- Language translation & sentence refinement
+- Code suggestions & debugging
+- Writing assistance for the report and this README
+- Brainstorming and Vibe coding
+**All core model design, data collection, feature engineering, result interpretation, and final technical decisions were made by the authors, and all outputs have been manually verified.**
