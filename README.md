@@ -39,28 +39,15 @@
 
 ---
 
-## 🗂️ Repository Structure
-.
-├── relational/
-│ ├── create_database.sql
-│ ├── mockup_data.sql
-│ ├── Final_Implementation.sql
-│ └── ER_Diagram_with data dictionary.png
-├── document/
-│ ├── users.json
-│ ├── users_add_more.json
-│ ├── users_add_more_2.json
-│ ├── Projects.json
-│ ├── Projects_add_more.json
-│ ├── Projects_add_more_2.json
-│ └── Database - MongoDB Server.txt
-├── graph/
-│ ├── Neo4j_MockUpData.csv
-│ ├── Neo4j_MockUpData.xlsx
-│ ├── Neo4j_Diagram.png
-│ └── Cypher_Query.pdf
-├── presentations/
-│ ├── Relational_Presentation.pdf
-│ ├── Document_Model_Presentation.pdf
-│ └── Graph_Model_Presentation.pdf
-└── README.md
+
+---
+
+## 🐳 How to Run Each Model
+
+### 1️⃣ Relational (MySQL)
+
+```bash
+cd relational
+mysql -u root -p < create_database.sql
+mysql -u root -p mydb < mockup_data.sql
+mysql -u root -p mydb < Final_Implementation.sql
