@@ -10,18 +10,18 @@ This repository contains the complete data modeling work for the Research Projec
 **📌 Table of Contents**
 Project Overview
 
-Team
+**1.Team**
 
-Business Context
+**2. Business Context**
 
-**Model 1:** Relational Database (MySQL)
+**3. Model 1:** Relational Database (MySQL)
 
-**Model 2: **Document Database (MongoDB)
+**4. Model 2:** Document Database (MongoDB)
 
-**Model 3:** Graph Database (Neo4j)
+**5. Model 3:** Graph Database (Neo4j)
 
-Comparison & Recommendation
+**6. Comparison & Recommendation**
 
-AI Use Declaration
+**7. AI Use Declaration**
 
-Citation
+**8. Citation**
