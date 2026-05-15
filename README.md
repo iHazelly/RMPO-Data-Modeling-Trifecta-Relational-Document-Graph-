@@ -51,6 +51,10 @@ mysql -u root -p mydb < Final_Implementation.sql
 ```
 
 ### 2️⃣ Document (MongoDB Atlas)
+```bash
+Connection string...
+mongodb+srv://st125843:Ny47gEN86MZWFrAa@dmmcluster0.xqqoaey.mongodb.net/
+```
 
 Connection string...
 mongodb+srv://st125843:Ny47gEN86MZWFrAa@dmmcluster0.xqqoaey.mongodb.net/
