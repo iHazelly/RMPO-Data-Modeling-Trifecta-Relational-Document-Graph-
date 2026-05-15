@@ -41,7 +41,7 @@
 
 ## 🐳 How to Run Each Model
 
-### 1️⃣ Relational (MySQL)
+### Relational (MySQL)
 
 ```bash
 cd relational
@@ -51,7 +51,7 @@ mysql -u root -p mydb < Final_Implementation.sql
 ```
 
 ---
-### 2️⃣ Document (MongoDB Atlas)
+### Document (MongoDB Atlas)
 Connection (see d**ocument/Database - MongoDB Server.txt**):
 ```bash
 mongodb+srv://st125843:Ny47gEN86MZWFrAa@dmmcluster0.xqqoaey.mongodb.net/
@@ -63,3 +63,10 @@ db.users.insertMany([...])      # load users.json etc.
 db.projects.insertMany([...])   # load Projects.json etc.
 ```
 
+---
+### 3 Document (MongoDB Atlas)
+- Open Neo4j Browser (local or Aura)
+- Copy the content of **graph/Neo4j_MockUpData.csv** (the query column) and run it to create nodes & relationships.
+- Execute any query from **graph/Cypher_Query.pdf.**
+
+```
