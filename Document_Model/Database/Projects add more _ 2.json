@@ -1,0 +1,37 @@
+db.projects.insertOne({
+  "project_code": "URBAN-TRANS-2024",
+  "title": "Sustainable Urban Transportation Planning",
+  "description": "Modeling traffic flow and public transport usage to propose more efficient and eco-friendly urban mobility solutions.",
+  "category": "Research and Development",
+  "status": "Active",
+  "start_date": ISODate("2024-01-20T00:00:00Z"),
+  "end_date": ISODate("2025-12-20T00:00:00Z"), // Ending within 3 months
+  "duration": 24,
+  "actual_end_date": null,
+  "research_areas": ["Urban Planning", "Data Science"],
+  "keywords": ["public transport", "traffic modeling", "sustainability"],
+  "staff": [
+    { "user_ref_id": 5, "role": "Principal Investigator", "area_of_expertise": ["Urban Planning"] },
+    { "user_ref_id": 6, "role": "Project Member", "area_of_expertise": ["Data Analysis"] }
+  ],
+  "student_assistant": [
+    { "user_ref_id": 3, "responsibility": "Survey data collection", "max_working_hr_par_m": 50, "rate_per_hr": 150, "start_date": ISODate("2024-02-01T00:00:00Z"), "end_date": ISODate("2025-11-30T00:00:00Z") }
+  ],
+  "financials": {
+    "total_budget": 2500000.00,
+    "currency": "THB",
+    "budget_status": "Approved",
+    "donor": {
+      "sponsor_name": "Bangkok Metropolitan Administration",
+      "type": "Research Organization",
+      "email": "info@bma.go.th",
+      "address": "173 Dinso Rd, Bangkok",
+      "contact_person": "Mr. Chatchart Sitthiphan",
+      "contact": "02-221-2141"
+    },
+    "installments": [
+      { "pay_date": ISODate("2024-02-15T00:00:00Z"), "amount": 1250000.00, "status": "Received" },
+      { "pay_date": ISODate("2025-02-15T00:00:00Z"), "amount": 1250000.00, "status": "Received" }
+    ]
+  }
+});

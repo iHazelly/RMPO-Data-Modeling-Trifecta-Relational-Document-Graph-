@@ -1,0 +1,79 @@
+db.users.insertMany([
+  {
+    "_id": ObjectId("671e8a0e1b2c3d4e5f6a7b8c"),
+    "user_id": 1,
+    "name": "Dr. Wipa Saelim",
+    "email": "wipa.s@university.ac.th",
+    "contact": "085-555-1212",
+    "gender": "Female",
+    "department": { "name": "Faculty of Engineering", "location": "Building 4, Room 305", "email": "eng@university.ac.th", "contact": "02-345-6789" },
+    "assigned_projects": [
+      { "project_code": "AI-AGRI-2025", "title": "AI Application for Precision Agriculture", "role": "Principal Investigator" },
+      { "project_code": "ROBO-MED-2023", "title": "Robotic Arm for Minimally Invasive Surgery", "role": "Principal Investigator" }
+    ]
+  },
+  {
+    "_id": ObjectId("671e8a0e1b2c3d4e5f6a7b8d"),
+    "user_id": 2,
+    "name": "Dr. Somchai Makdee",
+    "email": "somchai.m@university.ac.th",
+    "contact": "089-876-5432",
+    "gender": "Male",
+    "department": { "name": "Faculty of Science", "location": "Building 2, Room 110", "email": "sci@university.ac.th", "contact": "02-345-6788" },
+    "assigned_projects": [
+      { "project_code": "AI-AGRI-2025", "title": "AI Application for Precision Agriculture", "role": "Principal Investigator" },
+      { "project_code": "BIO-FUEL-2026", "title": "Advanced Biofuel from Algae", "role": "Principal Investigator" }
+    ]
+  },
+  {
+    "_id": ObjectId("671e8a0e1b2c3d4e5f6a7b8e"),
+    "user_id": 3,
+    "name": "Natcha Petchdee",
+    "email": "natcha.p@student.university.ac.th",
+    "contact": "091-234-5678",
+    "gender": "Female",
+    "department": { "name": "Faculty of Engineering", "location": "Building 4, Room 201", "email": "eng@university.ac.th", "contact": "02-345-6789" },
+    "assigned_projects": [
+      { "project_code": "AI-AGRI-2025", "title": "AI Application for Precision Agriculture", "role": "Student Assistant" },
+      { "project_code": "ROBO-MED-2023", "title": "Robotic Arm for Minimally Invasive Surgery", "role": "Student Assistant" }
+    ]
+  },
+  {
+    "_id": ObjectId("671e8a0e1b2c3d4e5f6a7b8f"),
+    "user_id": 4,
+    "name": "Anan Jaidee",
+    "email": "anan.j@student.university.ac.th",
+    "contact": "098-765-4321",
+    "gender": "Male",
+    "department": { "name": "Faculty of Science", "location": "Building 2, Room 110", "email": "sci@university.ac.th", "contact": "02-345-6788" },
+    "assigned_projects": [
+      { "project_code": "AI-AGRI-2025", "title": "AI Application for Precision Agriculture", "role": "Student Assistant" },
+      { "project_code": "BIO-FUEL-2026", "title": "Advanced Biofuel from Algae", "role": "Student Assistant" }
+    ]
+  },
+  {
+    "_id": ObjectId("671e8a0e1b2c3d4e5f6a7b90"),
+    "user_id": 5,
+    "name": "Dr. Malee Rukdee",
+    "email": "malee.r@university.ac.th",
+    "contact": "086-111-2222",
+    "gender": "Female",
+    "department": { "name": "Faculty of Engineering", "location": "Building 4, Room 305", "email": "eng@university.ac.th", "contact": "02-345-6789" },
+    "assigned_projects": [
+      { "project_code": "AI-AGRI-2025", "title": "AI Application for Precision Agriculture", "role": "Project Member" },
+      { "project_code": "ROBO-MED-2023", "title": "Robotic Arm for Minimally Invasive Surgery", "role": "Project Member" }
+    ]
+  },
+  {
+    "_id": ObjectId("671e8a0e1b2c3d4e5f6a7b91"),
+    "user_id": 6,
+    "name": "Somsak Decha",
+    "email": "somsak.d@university.ac.th",
+    "contact": "087-333-4444",
+    "gender": "Male",
+    "department": { "name": "Faculty of Engineering", "location": "Building 4, Room 305", "email": "eng@university.ac.th", "contact": "02-345-6789" },
+    "assigned_projects": [
+      { "project_code": "AI-AGRI-2025", "title": "AI Application for Precision Agriculture", "role": "Project Member" }
+    ]
+  }
+]);

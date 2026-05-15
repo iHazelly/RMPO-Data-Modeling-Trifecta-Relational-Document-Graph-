@@ -1,0 +1,44 @@
+db.users.bulkWrite([
+  {
+    updateOne: {
+      filter: { "user_id": 5 },
+      update: {
+        $push: {
+          "assigned_projects": {
+            "project_code": "URBAN-TRANS-2024",
+            "title": "Sustainable Urban Transportation Planning",
+            "role": "Principal Investigator"
+          }
+        }
+      }
+    }
+  },
+  {
+    updateOne: {
+      filter: { "user_id": 6 },
+      update: {
+        $push: {
+          "assigned_projects": {
+            "project_code": "URBAN-TRANS-2024",
+            "title": "Sustainable Urban Transportation Planning",
+            "role": "Project Member"
+          }
+        }
+      }
+    }
+  },
+  {
+    updateOne: {
+      filter: { "user_id": 3 },
+      update: {
+        $push: {
+          "assigned_projects": {
+            "project_code": "URBAN-TRANS-2024",
+            "title": "Sustainable Urban Transportation Planning",
+            "role": "Student Assistant"
+          }
+        }
+      }
+    }
+  }
+]);

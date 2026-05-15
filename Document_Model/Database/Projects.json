@@ -1,0 +1,88 @@
+db.projects.insertMany([
+  {
+    "_id": ObjectId("671e8a0e1b2c3d4e5f6a7b81"),
+    "project_code": "AI-AGRI-2025",
+    "title": "AI Application for Precision Agriculture",
+    "description": "Developing a model to predict crop yield using drone imagery.",
+    "category": "Research and Development",
+    "status": "Active",
+    "start_date": ISODate("2025-01-15T00:00:00Z"),
+    "end_date": ISODate("2026-12-31T00:00:00Z"),
+    "duration": 24,
+    "actual_end_date": null,
+    "research_areas": ["Artificial Intelligence", "Agriculture"],
+    "keywords": ["machine learning", "crop yield", "drone"],
+    "staff": [
+      { "user_ref_id": 1, "role": "Principal Investigator", "area_of_expertise": ["Machine Learning", "Data Science"] },
+      { "user_ref_id": 2, "role": "Principal Investigator", "area_of_expertise": ["Agronomy", "Remote Sensing"] },
+      { "user_ref_id": 5, "role": "Project Member", "area_of_expertise": ["Software Development"] },
+      { "user_ref_id": 6, "role": "Project Member", "area_of_expertise": ["GIS", "Data Analysis"] }
+    ],
+    "student_assistant": [
+      { "user_ref_id": 3, "responsibility": "Data collection and cleaning", "max_working_hr_par_m": 80, "rate_per_hr": 150, "start_date": ISODate("2025-02-01T00:00:00Z"), "end_date": ISODate("2026-11-30T00:00:00Z") },
+      { "user_ref_id": 4, "responsibility": "Literature review", "max_working_hr_par_m": 60, "rate_per_hr": 150, "start_date": ISODate("2025-03-01T00:00:00Z"), "end_date": ISODate("2026-12-31T00:00:00Z") }
+    ],
+    "financials": {
+      "total_budget": 2500000.00, "currency": "THB", "budget_status": "Approved",
+      "donor": { "sponsor_name": "National Research Council of Thailand", "type": "Research Organization", "email": "contact@nrct.go.th", "address": "196 Phahonyothin Rd, Bangkok", "contact_person": "Mr. Somchai Rakdee", "contact": "02-561-2445" },
+      "installments": [
+        { "pay_date": ISODate("2025-02-01T00:00:00Z"), "amount": 1250000.00, "status": "Received" },
+        { "pay_date": ISODate("2026-02-01T00:00:00Z"), "amount": 1250000.00, "status": "Pending" }
+      ]
+    }
+  },
+  {
+    "_id": ObjectId("671e8a0e1b2c3d4e5f6a7b82"),
+    "project_code": "ROBO-MED-2023",
+    "title": "Robotic Arm for Minimally Invasive Surgery",
+    "description": "Development of a high-precision robotic arm for surgical procedures.",
+    "category": "Conference/Workshop",
+    "status": "Completed",
+    "start_date": ISODate("2023-01-20T00:00:00Z"),
+    "end_date": ISODate("2024-12-20T00:00:00Z"),
+    "duration": 24,
+    "actual_end_date": ISODate("2024-11-30T00:00:00Z"),
+    "research_areas": ["Robotics", "Medical Technology"],
+    "keywords": ["surgical robot", "haptics"],
+    "staff": [
+      { "user_ref_id": 1, "role": "Principal Investigator", "area_of_expertise": ["Robotics", "Control Systems"] },
+      { "user_ref_id": 5, "role": "Project Member", "area_of_expertise": ["Software Engineering"] }
+    ],
+    "student_assistant": [
+      { "user_ref_id": 3, "responsibility": "Hardware assembly and testing", "max_working_hr_par_m": 80, "rate_per_hr": 160, "start_date": ISODate("2023-02-01T00:00:00Z"), "end_date": ISODate("2024-11-30T00:00:00Z") }
+    ],
+    "financials": {
+      "total_budget": 3500000.00, "currency": "THB", "budget_status": "Closed",
+      "donor": { "sponsor_name": "Ministry of Public Health", "type": "Private Company", "email": "contact@moph.go.th", "address": "88/20 Tiwanon Rd, Nonthaburi", "contact_person": "Dr. Supoj Meesuk", "contact": "02-590-1000" },
+      "installments": [
+        { "pay_date": ISODate("2023-02-15T00:00:00Z"), "amount": 1750000.00, "status": "Received" },
+        { "pay_date": ISODate("2024-02-15T00:00:00Z"), "amount": 1750000.00, "status": "Received" }
+      ]
+    }
+  },
+  {
+    "_id": ObjectId("671e8a0e1b2c3d4e5f6a7b83"),
+    "project_code": "BIO-FUEL-2026",
+    "title": "Training/Capacity Building",
+    "description": "Researching new methods to efficiently cultivate algae and extract biofuel.",
+    "category": "Fundamental Research",
+    "status": "Proposed",
+    "start_date": ISODate("2026-06-01T00:00:00Z"),
+    "end_date": ISODate("2028-05-31T00:00:00Z"),
+    "duration": 24,
+    "actual_end_date": null,
+    "research_areas": ["Biotechnology", "Renewable Energy"],
+    "keywords": ["algae", "biofuel", "sustainability"],
+    "staff": [
+      { "user_ref_id": 2, "role": "Principal Investigator", "area_of_expertise": ["Biochemistry"] }
+    ],
+    "student_assistant": [
+      { "user_ref_id": 4, "responsibility": "Lab assistant", "max_working_hr_par_m": 80, "rate_per_hr": 150, "start_date": ISODate("2026-07-01T00:00:00Z"), "end_date": ISODate("2028-04-30T00:00:00Z") }
+    ],
+    "financials": {
+      "total_budget": 2000000.00, "currency": "THB", "budget_status": "Pending Approval",
+      "donor": { "sponsor_name": "PTT Global Chemical", "type": "International Organization", "email": "info@pttgcgroup.com", "address": "555/1 Energy Complex, Bangkok", "contact_person": "Ms. Areeya Chansuk", "contact": "02-265-8400" },
+      "installments": []
+    }
+  }
+]);

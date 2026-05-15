@@ -1,0 +1,81 @@
+db.projects.insertMany([
+  // New Projects Only
+  {
+    "project_code": "GRID-SOLAR-2024",
+    "title": "Smart Grid Integration for Solar Power",
+    "description": "Developing an intelligent system to manage and distribute solar energy into the national power grid.",
+    "category": "Research and Development",
+    "status": "Active",
+    "start_date": ISODate("2024-03-01T00:00:00Z"),
+    "end_date": ISODate("2026-02-28T00:00:00Z"),
+    "duration": 24,
+    "actual_end_date": null,
+    "research_areas": ["Energy Systems", "AI"],
+    "keywords": ["smart grid", "solar power"],
+    "staff": [
+      { "user_ref_id": 1, "role": "Principal Investigator" },
+      { "user_ref_id": 8, "role": "Project Member" },
+      { "user_ref_id": 12, "role": "Project Member" }
+    ],
+    "student_assistant": [],
+    "financials": {
+      "total_budget": 4000000.00, "currency": "THB", "budget_status": "Approved",
+      "donor": { "sponsor_name": "Electricity Generating Authority of Thailand", "type": "Private Company", "email": "info@egat.co.th", "address": "53 Charan Sanit Wong Rd, Nonthaburi", "contact_person": "Mr. Voravit Potirat", "contact": "02-436-0000" },
+      "installments": [
+        { "pay_date": ISODate("2024-03-15T00:00:00Z"), "amount": 2000000.00, "status": "Received" },
+        { "pay_date": ISODate("2025-03-15T00:00:00Z"), "amount": 2000000.00, "status": "Pending" }
+      ]
+    }
+  },
+  {
+    "project_code": "NANO-COAT-2023",
+    "title": "Nanotechnology-based Anti-Corrosion Coating",
+    "description": "Creating a new coating material using nanoparticles to prevent metal corrosion.",
+    "category": "Conference/Workshop",
+    "status": "On Hold",
+    "start_date": ISODate("2023-09-01T00:00:00Z"),
+    "end_date": ISODate("2025-08-31T00:00:00Z"),
+    "duration": 24,
+    "actual_end_date": null,
+    "research_areas": ["Material Science", "Nanotechnology"],
+    "keywords": ["nanoparticles", "corrosion"],
+    "staff": [
+      { "user_ref_id": 7, "role": "Principal Investigator" }
+    ],
+    "student_assistant": [],
+    "financials": {
+      "total_budget": 1500000.00, "currency": "THB", "budget_status": "Approved",
+      "donor": { "sponsor_name": "Siam Cement Group (SCG)", "type": "Private Company", "email": "contact@scg.com", "address": "1 Siam Cement Rd, Bangkok", "contact_person": "Ms. Pimjai Srivikorn", "contact": "02-586-3333" },
+      "installments": [
+        { "pay_date": ISODate("2023-09-15T00:00:00Z"), "amount": 750000.00, "status": "Received" }
+      ]
+    }
+  },
+  {
+    "project_code": "DATA-HEALTH-2022",
+    "title": "Predictive Analytics for Public Health",
+    "description": "Using big data to predict disease outbreaks based on environmental and social factors.",
+    "category": "Training/Capacity Building",
+    "status": "Completed",
+    "start_date": ISODate("2022-06-01T00:00:00Z"),
+    "end_date": ISODate("2024-05-31T00:00:00Z"),
+    "duration": 24,
+    "actual_end_date": ISODate("2024-06-15T00:00:00Z"),
+    "research_areas": ["Data Science", "Public Health"],
+    "keywords": ["big data", "predictive analytics"],
+    "staff": [
+      { "user_ref_id": 5, "role": "Principal Investigator" }
+    ],
+    "student_assistant": [
+      { "user_ref_id": 10, "responsibility": "Data preprocessing" }
+    ],
+    "financials": {
+      "total_budget": 2200000.00, "currency": "THB", "budget_status": "Closed",
+      "donor": { "sponsor_name": "Thai Health Promotion Foundation", "type": "International Organization", "email": "info@thaihealth.or.th", "address": "99/8 Sathorn Nuea Rd, Bangkok", "contact_person": "Mr. Eakachai Lertpong", "contact": "02-343-1500" },
+      "installments": [
+        { "pay_date": ISODate("2022-06-15T00:00:00Z"), "amount": 1100000.00, "status": "Received" },
+        { "pay_date": ISODate("2023-06-15T00:00:00Z"), "amount": 1100000.00, "status": "Received" }
+      ]
+    }
+  }
+]);

@@ -1,0 +1,63 @@
+db.users.insertMany([
+  // New Users Only
+  {
+    
+    "user_id": 7,
+    "name": "Dr. Chan Chai",
+    "email": "chan.c@university.ac.th",
+    "contact": "081-111-2222",
+    "gender": "Male",
+    "department": { "name": "Faculty of Science" },
+    "assigned_projects": [{ "project_code": "NANO-COAT-2023", "title": "Nanotechnology-based Anti-Corrosion Coating", "role": "Principal Investigator" }]
+  },
+  {
+    
+    "user_id": 8,
+    "name": "Apiwat Saelim",
+    "email": "apiwat.s@university.ac.th",
+    "contact": "082-222-3333",
+    "gender": "Male",
+    "department": { "name": "Faculty of Engineering" },
+    "assigned_projects": [{ "project_code": "GRID-SOLAR-2024", "title": "Smart Grid Integration for Solar Power", "role": "Project Member" }]
+  },
+  {
+    
+    "user_id": 9,
+    "name": "Pornthip Jaidee",
+    "email": "pornthip.j@university.ac.th",
+    "contact": "083-333-4444",
+    "gender": "Female",
+    "department": { "name": "Faculty of Arts" },
+    "assigned_projects": []
+  },
+  {
+    
+    "user_id": 10,
+    "name": "Kamonwan Dee",
+    "email": "kamonwan.d@student.university.ac.th",
+    "contact": "084-444-5555",
+    "gender": "Female",
+    "department": { "name": "Faculty of Science" },
+    "assigned_projects": [{ "project_code": "DATA-HEALTH-2022", "title": "Predictive Analytics for Public Health", "role": "Student Assistant" }]
+  },
+  {
+    
+    "user_id": 11,
+    "name": "Thanawat Ngam",
+    "email": "thanawat.n@university.ac.th",
+    "contact": "085-555-6666",
+    "gender": "Male",
+    "department": { "name": "Faculty of Medicine" },
+    "assigned_projects": []
+  },
+  {
+    
+    "user_id": 12,
+    "name": "Sunisa Srichai",
+    "email": "sunisa.s@university.ac.th",
+    "contact": "086-666-7777",
+    "gender": "Female",
+    "department": { "name": "Faculty of Engineering" },
+    "assigned_projects": [{ "project_code": "GRID-SOLAR-2024", "title": "Smart Grid Integration for Solar Power", "role": "Project Member" }]
+  }
+]);
