@@ -83,4 +83,5 @@ During this project we used AI tools for:
 - Code suggestions & debugging
 - Writing assistance for the report and this README
 - Brainstorming and Vibe coding
-   **All core model design, data collection, feature engineering, result interpretation, and final technical decisions were made by the authors, and all outputs have been manually verified.**
+
+    **All core model design, data collection, feature engineering, result interpretation, and final technical decisions were made by the authors, and all outputs have been manually verified.**
