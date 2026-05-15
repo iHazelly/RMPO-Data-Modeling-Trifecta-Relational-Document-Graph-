@@ -24,7 +24,30 @@
 | **Relational** | MySQL 8.0 | 3NF normalization, 8 core tables + junction tables, 22 SQL queries |
 | **Document** | MongoDB 7.0 | Two collections (projects embedded, users referenced), aggregation pipeline |
 | **Graph** | Neo4j 5.0 | 10 node labels, 11 relationship types, Cypher queries for network insights |
-
+.
+├── relational/
+│   ├── create_database.sql
+│   ├── mockup_data.sql
+│   ├── Final_Implementation.sql
+│   └── ER_Diagram_with data dictionary.png
+├── document/
+│   ├── users.json
+│   ├── users_add_more.json
+│   ├── users_add_more_2.json
+│   ├── Projects.json
+│   ├── Projects_add_more.json
+│   ├── Projects_add_more_2.json
+│   └── Database - MongoDB Server.txt
+├── graph/
+│   ├── Neo4j_MockUpData.csv
+│   ├── Neo4j_MockUpData.xlsx
+│   ├── Neo4j_Diagram.png
+│   └── Cypher_Query.pdf
+├── presentations/
+│   ├── Relational_Presentation.pdf
+│   ├── Document_Model_Presentation.pdf
+│   └── Graph_Model_Presentation.pdf
+└── README.md
 ---
 
 ## 📊 Sample Query Performance (Mental Model)
@@ -36,4 +59,22 @@
 | Funding received by donor type | GROUP BY with subquery | `$group` + `$project` | relationship aggregation |
 
 > Actual execution times depend on data volume and indexes; this table highlights the **conceptual** complexity of each paradigm.
+---
+
+---
+
+## 🐳 How to Run Each Model
+
+### 1️⃣ Relational (MySQL)
+
+```bash
+cd relational
+mysql -u root -p < create_database.sql
+mysql -u root -p mydb < mockup_data.sql
+mysql -u root -p mydb < Final_Implementation.sql
+
+---
+### 1️⃣ Relational (MySQL)
+  
+mongodb+srv://st125843:Ny47gEN86MZWFrAa@dmmcluster0.xqqoaey.mongodb.net/
 
