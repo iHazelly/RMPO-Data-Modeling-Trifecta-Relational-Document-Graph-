@@ -16,14 +16,6 @@
 - **Outcome**: A side‑by‑side comparison of modeling choices, query performance, and best‑use scenarios for each paradigm.
 
 ---
-
-## 🚀 What's Inside
-
-| Model | Technology | Key Feature |
-|-------|------------|--------------|
-| **Relational** | MySQL 8.0 | 3NF normalization, 8 core tables + junction tables, 22 SQL queries |
-| **Document** | MongoDB 7.0 | Two collections (projects embedded, users referenced), aggregation pipeline |
-| **Graph** | Neo4j 5.0 | 10 node labels, 11 relationship types, Cypher queries for network insights |
 .
 ├── relational/
 │   ├── create_database.sql
@@ -48,6 +40,16 @@
 │   ├── Document_Model_Presentation.pdf
 │   └── Graph_Model_Presentation.pdf
 └── README.md
+---
+
+## 🚀 What's Inside
+
+| Model | Technology | Key Feature |
+|-------|------------|--------------|
+| **Relational** | MySQL 8.0 | 3NF normalization, 8 core tables + junction tables, 22 SQL queries |
+| **Document** | MongoDB 7.0 | Two collections (projects embedded, users referenced), aggregation pipeline |
+| **Graph** | Neo4j 5.0 | 10 node labels, 11 relationship types, Cypher queries for network insights |
+
 ---
 
 ## 📊 Sample Query Performance (Mental Model)
