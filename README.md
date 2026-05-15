@@ -88,7 +88,9 @@ During this project we used AI tools for:
 
 ---
 
-### 📄 Citation
+## 📄 Citation
+
+```bibtex
 @misc{datephanyawat_khanongsuwan_swe_2025_rmpo,
   title={RMPO Data Modeling: Relational, Document, and Graph Implementations for Research Project Management},
   author={Datephanyawat, Jirapat and Khanongsuwan, Paradorn and Swe, Thet Htun},
