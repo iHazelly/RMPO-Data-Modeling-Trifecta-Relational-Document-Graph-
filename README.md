@@ -37,27 +37,3 @@
 
 > Actual execution times depend on data volume and indexes; this table highlights the **conceptual** complexity of each paradigm.
 
----
-
-## 🐳 How to Run Each Model
-
-### 1️⃣ Relational (MySQL)
-
-```bash
-cd relational
-mysql -u root -p < create_database.sql
-mysql -u root -p mydb < mockup_data.sql
-mysql -u root -p mydb < Final_Implementation.sql
-
-
----
-
-## 🐳 How to Run Each Model
-
-### 1️⃣ Relational (MySQL)
-
-```bash
-cd relational
-mysql -u root -p < create_database.sql
-mysql -u root -p mydb < mockup_data.sql
-mysql -u root -p mydb < Final_Implementation.sql
