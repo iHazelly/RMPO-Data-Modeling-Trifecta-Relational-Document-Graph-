@@ -50,6 +50,7 @@ mysql -u root -p mydb < mockup_data.sql
 mysql -u root -p mydb < Final_Implementation.sql
 ```
 
+---
 ### 2️⃣ Document (MongoDB Atlas)
 Connection (see d**ocument/Database - MongoDB Server.txt**):
 ```bash
