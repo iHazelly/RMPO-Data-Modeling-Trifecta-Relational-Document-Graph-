@@ -14,11 +14,11 @@ Team
 
 Business Context
 
-Model 1: Relational Database (MySQL)
+**Model 1:** Relational Database (MySQL)
 
-Model 2: Document Database (MongoDB)
+**Model 2: **Document Database (MongoDB)
 
-Model 3: Graph Database (Neo4j)
+**Model 3:** Graph Database (Neo4j)
 
 Comparison & Recommendation
 
