@@ -15,31 +15,7 @@
 - **Solution**: We implemented the **same business requirements** in three database systems: MySQL (relational), MongoDB (document), Neo4j (graph).  
 - **Outcome**: A side‑by‑side comparison of modeling choices, query performance, and best‑use scenarios for each paradigm.
 
----
-.
-├── relational/
-│   ├── create_database.sql
-│   ├── mockup_data.sql
-│   ├── Final_Implementation.sql
-│   └── ER_Diagram_with data dictionary.png
-├── document/
-│   ├── users.json
-│   ├── users_add_more.json
-│   ├── users_add_more_2.json
-│   ├── Projects.json
-│   ├── Projects_add_more.json
-│   ├── Projects_add_more_2.json
-│   └── Database - MongoDB Server.txt
-├── graph/
-│   ├── Neo4j_MockUpData.csv
-│   ├── Neo4j_MockUpData.xlsx
-│   ├── Neo4j_Diagram.png
-│   └── Cypher_Query.pdf
-├── presentations/
-│   ├── Relational_Presentation.pdf
-│   ├── Document_Model_Presentation.pdf
-│   └── Graph_Model_Presentation.pdf
-└── README.md
+
 ---
 
 ## 🚀 What's Inside
@@ -61,9 +37,7 @@
 | Funding received by donor type | GROUP BY with subquery | `$group` + `$project` | relationship aggregation |
 
 > Actual execution times depend on data volume and indexes; this table highlights the **conceptual** complexity of each paradigm.
----
-
----
+--- 
 
 ## 🐳 How to Run Each Model
 
@@ -74,9 +48,15 @@ cd relational
 mysql -u root -p < create_database.sql
 mysql -u root -p mydb < mockup_data.sql
 mysql -u root -p mydb < Final_Implementation.sql
+```
 
----
-### 1️⃣ Relational (MySQL)
-  
+### 2️⃣ Document (MongoDB Atlas)
+
+Connection string...
 mongodb+srv://st125843:Ny47gEN86MZWFrAa@dmmcluster0.xqqoaey.mongodb.net/
+Then:
+use rmpo
+db.users.insertMany([...])      # load users.json etc.
+db.projects.insertMany([...])   # load Projects.json etc.
+```
 
