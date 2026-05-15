@@ -51,15 +51,12 @@ mysql -u root -p mydb < Final_Implementation.sql
 ```
 
 ### 2️⃣ Document (MongoDB Atlas)
-Connection (see document/Database - MongoDB Server.txt):...
+Connection (see d**ocument/Database - MongoDB Server.txt**):
 ```bash
-Connection string...
 mongodb+srv://st125843:Ny47gEN86MZWFrAa@dmmcluster0.xqqoaey.mongodb.net/
 ```
-
-Connection string...
-mongodb+srv://st125843:Ny47gEN86MZWFrAa@dmmcluster0.xqqoaey.mongodb.net/
 Then:
+```bash
 use rmpo
 db.users.insertMany([...])      # load users.json etc.
 db.projects.insertMany([...])   # load Projects.json etc.
